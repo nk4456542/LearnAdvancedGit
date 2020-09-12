@@ -1,0 +1,48 @@
+Basic Git Command :-
+1. git init
+- To initialise a git repository for a new or existing project.
+2. git add <file_name>
+- Add one or more files(git add .) to staging(index).
+3. git status
+- List the files that you've changed and those you still need to add or commit.
+4. git commit -m "commit message"
+- commit changes to head.
+5. git log
+- To see the log of all of your files
+6. git rm --cached <file_name>
+- To remove files from staging area(Unstage).
+7. git branch <branch_name>
+- To create a new branch with name as branch_name.
+8. git checkout <branch_name>
+- To switch from current branch to another branch.
+9. git merge <branch_name>
+- To merge a branch into current branch.
+10. git commit -am "Message"
+- To add(stage) and commit at the single time.
+11. git remote add origin "your url"
+- To add your repo to remote(github).
+12. git remote -v
+- To check what availabe remote repos you have.
+13. git push -u origin master
+- To push your repo to the master branch on remote(github).
+14. git push origin "branch name"
+- To push your current branch to remote.
+15. git pull 
+- To download the files that were changed remotely to your local repo.
+16. git diff filename
+- Shows the changes you have made on that file
+17. git show file hash name
+- Shows what you changed during that commit
+18. git checkout master
+    git branch -d branchname
+- To delete the branch. But you have to switch to other branch before deleting 
+17. git reset --hard HEAD^
+- To go back to your previous commit and all the changed code will be deleted
+18. git reset --soft commithashname
+- To go back to the hashnamecommit and the changed code is still visible
+19. git restore --staged filename
+- To restore to the previous version and file is unstaged from the staging area
+20. git restore filename
+- To restore the file to previous version and remove from our tracking
+21. git commit --amend and then save by esc wq enter
+- To commit without creating new commit messages
